@@ -1,5 +1,15 @@
-# 9/18/2026 Made new project and started working on the schematic!! (1hr)
+# 9/17/2026 Made new project and started working on the schematic!! (1hr)
 
 Today, I started working on this project which is going to be a ESP31-powered weather station with Funmi! Starting off, we brainstormed how our weather station will be and what parts/sensors it will have. Then, I made a new EasyEDA team and invited Funmi to it so that we could collaborate on the PCB and schematic. Moving on to the schematic, I first did the ESP32 where I did have some trouble on finding the perfect module. I was looking for an ESP32 module, not the bare chip as the module had the flash chip and all of the other essentials along with the WiFi+BT antenna which is very crucial as designing that by ourselves would be quite troublesome and maybe problematic. While searching for a good ESP32 module, I could not find one and I got many bare chips. I tried many different keywords but did not get results that satisfied my request. But, after some while of searching, I finally stumbled upon a module that satisfied my requirements. I then went on searching for a BME280 temperature, humidity, and pressure sensor which was not hard, and the same could be said for the BH1750 light sensor. But, when it came to the VEML6075, the IC was not in stock, and I could not find and alternatives to it as of now. I will continue working on finding the rest of the parts needed and hopefully I get done with finding all of the parts needed and put them in the schematic by the end of the next time that I work on this.
 
+Lapse: https://lapse.hackclub.com/timelapse/F5m8yYxM26DT
+
 <img width="461" height="423" alt="image" src="https://github.com/user-attachments/assets/44625419-b8d5-4ee2-80f6-22a13c6a4612" />
+
+# 9/18/2026 Read datasheets + wired a little power!! (2hrs)
+
+Today, I started off with wiring some of the things that were also on the schematic. Me and Funmi also did some searching for an LDO/some sort of power regulator for 3.3V. I also added a CH340 to the schematic as well because we will need a way to communicate with our ESP32 and program it over a USB port. The CH340 will convert USB signals to serial signals so that the ESP32 can properly communicate with our computer for debugging and coding. I also started wiring the power pins for the sensors as well. I managed to wire all of the needed power pins for the BME280 and then moved on to the ambient light sensor. This was a bit more troublesome as it had some sort of special rule for one of its pins. I unfortunately did not have enough time to finish wiring the power pins for everything, but I did still make some progress in the end! And also, all of this research will be important for the proper functionality of our project as well. I also thought of an idea that was about using the schematic for the modules by Adafruit that use the same sensor as Adafruit makes everything open source. I thought about this at the end of today's work session so I will try to not forget about this the next time that I work on this.
+
+Lapse: https://lapse.hackclub.com/timelapse/n_8TG-TNRAbT
+
+<img width="1114" height="807" alt="image" src="https://github.com/user-attachments/assets/cf642897-8ede-419a-9027-aa33e1f800ab" />
