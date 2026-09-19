@@ -5,10 +5,25 @@ I searched, added, and wired components for our weather tracker and display syst
 
 ![mcu](images/mcu.png)
 
-![mcu](images/power_and_bat.png)
+![power](images/power_and_bat.png)
 
 We found suitable modules for temp, pressure, humidity and UV light, but we're still gonna finalize for wind speed, wind direction, and rain (amount of rain fall).
 
-![mcu](images/sensors.png)
+![sensors](images/sensors.png)
+
+Timelapse: https://lapse.hackclub.com/timelapse/0soD5C5SFuWm
+
+---
+
+**18th September midnight**
+
+I started wiring the ldo. I wired input voltage, switching nodes, and power with necessary caps using the datasheet. I also wired the gpio pins on the processor.
+
+![ldo](images/ldo-power.png)
+
+![gpio](images/processor-gpio.png)
+
+Timelapse: https://lapse.hackclub.com/timelapse/47Nh-5HsW0Z_
+
 
 ---
