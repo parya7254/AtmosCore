@@ -13,3 +13,11 @@ Today, I started off with wiring some of the things that were also on the schema
 Lapse: https://lapse.hackclub.com/timelapse/n_8TG-TNRAbT
 
 <img width="1114" height="807" alt="image" src="https://github.com/user-attachments/assets/cf642897-8ede-419a-9027-aa33e1f800ab" />
+
+# 9/19/2026 Finished wiring sensors! (2hrs)
+
+Today, I managed to lock in enough and finish wiring all of the sensors. The reason that this took so long was because I had to go through the datasheet and confirm the correct way to do things. I have also never worked with a bare chip and I2C before so that was a bit problematic since I did not know about pull up resistors on I2C lines. I used 4.7k resistors on each I2C line since that was the recommended amount from looking it up and then pulled the resistor up. But I managed to learn about them today! I did use some example schematics from Adafruit's modules that use the same chip for reference to properly wiring the chip! I also had to set some pins to high or low to make sure that they have the proper address for I2C. Me and Funmi also discussed some plans for our project and its indoor and outdoor module as well.
+
+Lapse: https://lapse.hackclub.com/timelapse/fbDPuQSLvLiT
+
+<img width="1540" height="561" alt="image" src="https://github.com/user-attachments/assets/764eada7-da10-4633-a036-104f98aec467" />
