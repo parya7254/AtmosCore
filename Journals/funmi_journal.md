@@ -43,3 +43,23 @@ I finished wiring up the ldo. I wired up enable, power saving, and some other pi
 
 Timelapse: https://lapse.hackclub.com/timelapse/MDIkPO2Eiles
 Timelapse 2: https://lapse.hackclub.com/timelapse/ODEb5UjX_YcE
+
+
+**19th September evening**
+
+We decided to not connect status LEDs for the battery charger (CHRG and STDBY), but instead connect them to two separate GPIOs and have it display in our second module when the battery is charging or full. If we happen to run out of GPIOs, which I don't think we will, I'll wire both statuses to one pin.
+
+Anyways, I finished wiring up the battery charger and fixed a lot of bugs in my wiring (for example, shorting VIN, and some other pins). I think there might still be some things I might have wired wrongly, which I'll fix tomorrow.
+
+I also added and wired an NTC temp sensor to avoid charging the battery while it is overheated.
+
+![ntc-temp-sensor](images/ntc-temp-sensor.png)
+
+![wired-batt-charger](images/wired-battery-charger.png)
+
+![bug-fix](images/fixed-bug.png)
+
+![batt](images/battery.png)
+
+Timelapse: https://lapse.hackclub.com/timelapse/Cc5SS9TyneUY
+
