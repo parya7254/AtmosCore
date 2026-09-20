@@ -27,3 +27,19 @@ Timelapse: https://lapse.hackclub.com/timelapse/47Nh-5HsW0Z_
 
 
 ---
+
+
+**19th September**
+
+I finished wiring up the ldo. I wired up enable, power saving, and some other pins. We're gonna use the Adafruit 6V 2W solar panel that has a barrel jack connector, so I added the jack socket (or whatever its calld) that will connect to the jack of the solar panel. I also started wiring the TP4056 to the battery and the solar.
+
+![usb-serial-connector](images/usb-ser-con.png)
+
+![sensors](images/sensors.png)
+
+![image](images/wiring.png)
+
+![ldo](images/ldo-more.png)
+
+Timelapse: https://lapse.hackclub.com/timelapse/MDIkPO2Eiles
+Timelapse 2: https://lapse.hackclub.com/timelapse/ODEb5UjX_YcE
