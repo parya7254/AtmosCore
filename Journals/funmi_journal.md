@@ -82,3 +82,5 @@ I also fixed some other wiring bugs in my code.
 ![schottky](images/diode-added.png)
 
 ![bug fix](images/EN-pins-wiring.png)
+
+Timelapse: https://lapse.hackclub.com/timelapse/anTcrrIvC8c1
