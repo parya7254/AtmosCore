@@ -63,3 +63,22 @@ I also added and wired an NTC temp sensor to avoid charging the battery while it
 
 Timelapse: https://lapse.hackclub.com/timelapse/Cc5SS9TyneUY
 
+
+
+**20th September**
+
+Rounding up wiring for the outdoor-module - I added decoupling capacitors for the battery charger and esp32..
+
+I also added a schottky diode to prevent back charge to the solar panel. For the charging status pins, we decided we would enable pullup internally with code instead. and we removed the resistors I had added to the pins. i also fixed a couple of other wiring mistakes
+
+Then, I began the indoor-module schematic. I added a simple LDO and testpoints for Lipo battery (so we can have a smaller device for that module) and began wiring all the components. We're still thinking of what else would be in the indoor-module, but we want a touch display and it's gonna have a menu screen, and more. We're thinking of adding an NFC tag to the outdoor module to send data to our phones when we tap it.
+
+I also fixed some other wiring bugs in my code.
+
+![indoor module](images/indoor-module.png)
+
+![decoupling](images/decoupling.png)
+
+![schottky](images/diode-added.png)
+
+![bug fix](images/EN-pins-wiring.png)
