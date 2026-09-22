@@ -29,3 +29,13 @@ Today, I managed to finish wiring the CH340C, which is a USB to serial converter
 Lapse: https://lapse.hackclub.com/timelapse/sECMAntu1_vI
 
 <img width="1236" height="433" alt="image" src="https://github.com/user-attachments/assets/06cb090c-789a-4ae6-bb1f-e92a2dea4144" />
+
+
+# 9/21/2026 Finished USB-C port + started working on indoor module!! (1hr)
+
+Today, I did some research on the USB-C CC pins and learnt that they are pins that can detect the orientation of the cable plugged into it and that they are also crucial to getting power from USB-C and also very important in USB PD, which can negotiate higher amps and voltages. I did some research on these pins, although I did not find the results that I needed initially, after some more searching and rewording my question, I found an answer, I also hunted for another source to confirm the correct values. It turned out that I needed to out a 5.1K pulldown resistor on both of the CC pins so that they can even receive power in the first place, I do not need USB PD in this as this is very low power and I just need USB power in general. After I finished that, I moved on to the indoor module, as we thought the outdoor module's schematic was finished! We decided to use the same ESP32 chip on the indoor module, and I went to find a display. We decided to go for a touchscreen TFT, and I did spend some time searching for ones that were decently priced. We were going to do a bigger screen, but it was not worth the very large price difference, even though they were the same resolution, and we decided to stick with 2.8 inches. I managed to also find a good header pin footprint, and we will not get this assembled by PCBA and solder this by hand. I had to stop after I added the footprint for today, and I will continue to work on the TFT the next time that I work on this project.
+
+Lapse: https://lapse.hackclub.com/timelapse/WTt2GvQR11WG
+
+<img width="581" height="386" alt="image" src="https://github.com/user-attachments/assets/3b56870d-7b74-4a09-a299-863a9401e6a0" />
+<img width="948" height="470" alt="image" src="https://github.com/user-attachments/assets/aa497d05-d8a7-4f97-9fcb-026f09cf4d23" />
