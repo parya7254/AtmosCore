@@ -39,3 +39,11 @@ Lapse: https://lapse.hackclub.com/timelapse/WTt2GvQR11WG
 
 <img width="581" height="386" alt="image" src="https://github.com/user-attachments/assets/3b56870d-7b74-4a09-a299-863a9401e6a0" />
 <img width="948" height="470" alt="image" src="https://github.com/user-attachments/assets/aa497d05-d8a7-4f97-9fcb-026f09cf4d23" />
+
+# 9/22/2026 Finished the display, CH340C, and almost the USB-C port on the indoor module!! (1.2hr)
+
+Today, I moved further on to the indoor module and started off with the display. I first manually went through and edited all of the pins of the symbol to match the pinout of the LCD in order. After getting that, I found a guide online that was for ILI9341 touch displays, which is what we are using for the touchscreen indoor display. I wired the display together to the ESP32, as the guide said, and I left the MISO for the display unconnected so that it would not interfere with the MISO for the touch chip on the display, and I also left the RST pin on the chip unconnected since that was optional, and I did not think that pin would be necessary. But I did connect T_IRQ to the ESP32 even though it was optional because I felt like that pin could be used for some features in the code. I also connected the backlight pin of the LCD to a GPIO rather than 3.3V so that I can have a variable backlight, maybe this could be a feature that the T_IRQ pin could be used for to reactivate the display when it goes inactive after some time. I also copied over the CH340C and the USB-C port from the outdoor module's schematic so that we have a way to program this board from USB. I also did a quick check on the pins to make sure that all the pins were properly connected, but I may do a deeper confirmation on each thing that I imported from the outdoor module's schematic to make sure that I did not miss anything the next time I work on this project.
+
+Lapse: https://lapse.hackclub.com/timelapse/J-Z-gBlOViqR
+
+<img width="1256" height="697" alt="image" src="https://github.com/user-attachments/assets/ac2e5a30-d180-48af-8da6-a4939b6b6fe2" />
