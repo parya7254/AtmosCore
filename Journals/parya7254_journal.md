@@ -47,3 +47,11 @@ Today, I moved further on to the indoor module and started off with the display.
 Lapse: https://lapse.hackclub.com/timelapse/J-Z-gBlOViqR
 
 <img width="1256" height="697" alt="image" src="https://github.com/user-attachments/assets/ac2e5a30-d180-48af-8da6-a4939b6b6fe2" />
+
+# 9/23/2026 Finished USB-C port and added battery charging module and also confirmed wiring!! (0.5hrs)
+
+Today, I confirmed all of the wiring of all the things that I pasted from the outdoor module's schematic to the one for the indoor module! I also managed to add a TP4056 which is a battery charging module to the schematic and finish wiring it! I also managed to complete the wiring for the USB-C port, but I think that we may have to change some power in pins around. But for today, I directly connected the power from the USB-C port to the TP4056 as it can support a power range from 4-8V. I did organize the parts into specific boxes so that it would be easy to tell what was what and also make our schematic look neater and more organized. I also made some changes to some net names and moved some wiring around since I think that there is no need for a solar panel on the indoor module. I also added some charging LEDs to the CHRG and STBY pins on the charging IC because it would make more sense to have charging LEDs for an indoor door module rather than an outdoor module where it would be barely visible and not so useful. I might revise power, if nessesary, the next time that I work on this project.
+
+Lapse: https://lapse.hackclub.com/timelapse/oKhIT1_g9Br1
+
+<img width="1256" height="350" alt="image" src="https://github.com/user-attachments/assets/cb0de7fc-631f-4ddd-a59b-f9ce044ef2b8" />
