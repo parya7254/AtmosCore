@@ -55,3 +55,12 @@ Today, I confirmed all of the wiring of all the things that I pasted from the ou
 Lapse: https://lapse.hackclub.com/timelapse/oKhIT1_g9Br1
 
 <img width="1256" height="350" alt="image" src="https://github.com/user-attachments/assets/cb0de7fc-631f-4ddd-a59b-f9ce044ef2b8" />
+
+# 9/24/2026 Finished all of the schematics!! (1.1hrs)
+
+Today, we managed to finish both of the indoor and outdoor schematics! We continued to work on the indoor and we decided to add a temperature/pressure/humidity sensor to it to view information of the indoor environment at a glance! I check over its wiring to confirm everything and it was a good thing I did because I saw a pin that was supposed to be connected to something but was not. I read over the datasheet for the SDO pin on the BME280 and learnt that it was for setting the I2C address when it was in I2C mode! I then fixed the wiring on both the indoor and outdoor schematics. I also confirmed all of the wiring for the indoor module's schematic and then I did notice some mistakes, so I fixed them and this is good because they may have ruined our PCB! Now, for the outdoor schematic, I went over and skimmed over its wiring. It was also a good thing that I did because there were also some issues with wiring on that schematic as well. I fixed the power out for the USB because it was supposed to go to the main power in for the entire board. I also added diodes to both the power from the battery and the USB-C port as well because I did not want any power backflowing and potentially ruining the battery and/or the device that is providing power for USB.
+
+Lapse: https://lapse.hackclub.com/timelapse/r-nnZGUj-LDX
+
+<img width="2362" height="1672" alt="SCH_outdoor-module_1-P1_2026-09-24" src="https://github.com/user-attachments/assets/e0a423b0-c05e-416d-aca3-4315892f0294" />
+<img width="2362" height="1672" alt="SCH_indoor-module_1-P1_2026-09-24" src="https://github.com/user-attachments/assets/80265fbc-06e0-450b-ad50-274f7d7b1789" />
