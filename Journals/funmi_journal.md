@@ -44,6 +44,7 @@ I finished wiring up the ldo. I wired up enable, power saving, and some other pi
 Timelapse: https://lapse.hackclub.com/timelapse/MDIkPO2Eiles
 Timelapse 2: https://lapse.hackclub.com/timelapse/ODEb5UjX_YcE
 
+---
 
 **19th September evening**
 
@@ -63,7 +64,7 @@ I also added and wired an NTC temp sensor to avoid charging the battery while it
 
 Timelapse: https://lapse.hackclub.com/timelapse/Cc5SS9TyneUY
 
-
+---
 
 **20th September**
 
@@ -84,3 +85,17 @@ I also fixed some other wiring bugs in my code.
 ![bug fix](images/EN-pins-wiring.png)
 
 Timelapse: https://lapse.hackclub.com/timelapse/anTcrrIvC8c1
+
+
+--
+### WEEK 2
+---
+
+**25th aSeptember**( (Syncing tw)
+
+On the first day, I cross checked our schematic, and fixed some issues with the labels. We added diodes to the power outlets/charging so that our PCB wouldn' make connections to things on the same label that don't need to be connected directly.
+
+We decided to have another temperature module for the internal model, so it could display the difference between both.. My teammate mainly copied most of the sensor and USB-C wiring from the outdoor schematic to the indoor schematic, and changed what needed to be.
+
+We cross-checked all our wiring, and had two of our friends sanity check our wiring. We also ran DRC and removed connections from useless GPIOs. There may still be changes in the future, but we're moving to our PCB now!
+
