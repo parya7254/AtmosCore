@@ -99,3 +99,5 @@ We decided to have another temperature module for the internal model, so it coul
 
 We cross-checked all our wiring, and had two of our friends sanity check our wiring. We also ran DRC and removed connections from useless GPIOs. There may still be changes in the future, but we're moving to our PCB now!
 
+Timelapse (22nd Sept): https://lapse.hackclub.com/timelapse/DbM2U7grEP55
+Timelapse (25th Sept): https://lapse.hackclub.com/timelapse/LilQS_6KhUf3
