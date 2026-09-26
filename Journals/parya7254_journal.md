@@ -64,3 +64,13 @@ Lapse: https://lapse.hackclub.com/timelapse/r-nnZGUj-LDX
 
 <img width="2362" height="1672" alt="SCH_outdoor-module_1-P1_2026-09-24" src="https://github.com/user-attachments/assets/e0a423b0-c05e-416d-aca3-4315892f0294" />
 <img width="2362" height="1672" alt="SCH_indoor-module_1-P1_2026-09-24" src="https://github.com/user-attachments/assets/80265fbc-06e0-450b-ad50-274f7d7b1789" />
+
+
+# 9/25/2026 Started PCB for indoor module + fixed some mistakes!! (2hrs)
+
+Today, I managed to start working on the actual PCB for the indoor module! But before doing that, we decided to start planning the case, so that we know how we should design the actual PCB. We currently have a case in the shape of a triangular prism planned. The back of it will have the charging port, along with the reset and boot buttons, and also the battery status LEDs. We also added a power button on the top of the case. The case design may change later on though. Moving on to the PCB, I started placing the components around and finding a good order. While placing the components though, I did find out that I had wired some of the things to the CH340C incorrectly and went to fix them. I rewired the entire part than automatically set the ESP32 into boot mode. After fixing that, I continued on to the PCB, where I continued to keep placing the parts. I have forgotten to update the CH340C in the outdoor module's schematic and hope to do so the next time that I work on this project. After getting most of the core parts placed, I looked at some references, like the CYD (cheap yellow display) and saw that the PCB had a cutout where the ESP32's antenna stuck out, so I edited the shape of the outline to do the same. I also used an ESP32 board that I had laying around for getting some reference for placing my parts. I should be able to finish all of the component placements for the indoor module's PCB by the end of the next time that I work on this project!
+
+Lapse: https://lapse.hackclub.com/timelapse/2hj70kKTxeaL
+
+<img width="2683" height="4032" alt="Case-Prototype-Drawing" src="https://github.com/user-attachments/assets/a92d92d8-5d08-4e1f-bebe-43d712748a5f" />
+<img width="1583" height="685" alt="image" src="https://github.com/user-attachments/assets/729bb636-bf96-46aa-a335-7fab5fd780d3" />
