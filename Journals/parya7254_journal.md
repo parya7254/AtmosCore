@@ -74,3 +74,12 @@ Lapse: https://lapse.hackclub.com/timelapse/2hj70kKTxeaL
 
 <img width="2683" height="4032" alt="Case-Prototype-Drawing" src="https://github.com/user-attachments/assets/a92d92d8-5d08-4e1f-bebe-43d712748a5f" />
 <img width="1583" height="685" alt="image" src="https://github.com/user-attachments/assets/729bb636-bf96-46aa-a335-7fab5fd780d3" />
+
+# 9/26/2026 Finished PCB parts placement + added radar sensor + updated planning for case!! (2.7hrs)
+
+Today, I managed to finish placing components on the PCB, add a radar module to the indoor module for human detection, and also update the design of the case! I first started off with continuing to place the components on the PCB and then I got an idea on a different type of enclosure for the device, instead of doing a triangular prism, I decided to do a case like a tablet which would make it more portable. And if the user wants to keep it standing on a desk, I also planned a stand for it. Since the display will be parallel to the PCB in this enclosure, the USB-C data/charging port will be on the top. I also changed the power button into a button that lights up! The button is a bit big so I will have to design the case around that, but the coolest part is that the button has a built in LED! I connected the LED to a GPIO so that I can have the ESP32 display statuses on it. After I finished redesigning the case, though, I continued to work on the PCB and got the idea of putting a radar sensor in it. I got this idea from those round Google Nest smart thermostats as they detect people and then the display automatically lights up when it does. I wanted to apply a similar concept to that. So, I added an inexpensive LD2410C human detection radar module to it. This module did make the case bigger and slightly bulkier, but the feature will be very useful later on as many users might keep it on a desk more than they carry it around. I think that I am finally done with the schematic for the indoor module and don't have any more things to add to it. I then finished up the placement for everything and then moved on to wiring! I managed to get some wiring done and finished the wiring for the USB-C port and the CH340C USB-to-Serial converter!
+
+Lapse: 
+
+<img width="1029" height="755" alt="image" src="https://github.com/user-attachments/assets/46da19b2-e8b9-43aa-9df0-e4944f70b6a8" />
+<img width="2683" height="4032" alt="Case-Prototype-Drawing-AtmosCore-Final" src="https://github.com/user-attachments/assets/673556d1-4409-4701-ad09-221a9a4a0328" />
