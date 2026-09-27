@@ -109,3 +109,17 @@ We cross-checked all our wiring, and had two of our friends sanity check our wir
 
 Timelapse (22nd Sept): https://lapse.hackclub.com/timelapse/DbM2U7grEP55
 Timelapse (25th Sept): https://lapse.hackclub.com/timelapse/LilQS_6KhUf3
+
+---
+
+**26th September**
+
+We had started placing components in their places. I placed decoupling capacitors where they needed to be. As I was doing that was when I realised two huge mistakess!!! I realsied I never even opened the datasheet for the LDO I added in the internal module (maybe cuz it only had three pins) :(.. Anyways, I didn't add any input or output capacitors, which is bad. But, I later opened the datasheet and fixed that.
+
+The second mistake I had made was the wiring of the EN pin.. It was just wrong, like wrong wrong! :(, and I fixed that asw.
+
+I also changed the automatically assigned capacitor sizes to uniform ones 0603 and 0805 where needed, and updated the pcb! (Now that I think about it, i didn't check resistors.. maybe tmr).
+
+My teammate added a switch to power on, and decided it would be cool to add a radar presence detector so that our device would turn on when somoen walked by or came close.. that makes 3 ways to turn it on (Touch LCD and the button asw)
+
+After placing all the components everywhere, and fixing and ensuring correct wiring, we began routing and we've covered some grounds.. will continue tmr
