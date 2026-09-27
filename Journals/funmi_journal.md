@@ -114,7 +114,7 @@ Timelapse (25th Sept): https://lapse.hackclub.com/timelapse/LilQS_6KhUf3
 
 **26th September**
 
-We had started placing components in their places. I placed decoupling capacitors where they needed to be. As I was doing that was when I realised two huge mistakess!!! I realsied I never even opened the datasheet for the LDO I added in the internal module (maybe cuz it only had three pins) :(.. Anyways, I didn't add any input or output capacitors, which is bad. But, I later opened the datasheet and fixed that.
+We had started placing components in their places. I placed decoupling capacitors where they needed to be. I was making reference to my previous devboard for some guidance. Then I realised two huge mistakess!!! I realsied I never even opened the datasheet for the LDO I added in the internal module (maybe cuz it only had three pins) :(.. Anyways, I didn't add any input or output capacitors, which is bad. But, I later opened the datasheet and fixed that.
 
 The second mistake I had made was the wiring of the EN pin.. It was just wrong, like wrong wrong! :(, and I fixed that asw.
 
@@ -123,3 +123,17 @@ I also changed the automatically assigned capacitor sizes to uniform ones 0603 a
 My teammate added a switch to power on, and decided it would be cool to add a radar presence detector so that our device would turn on when somoen walked by or came close.. that makes 3 ways to turn it on (Touch LCD and the button asw)
 
 After placing all the components everywhere, and fixing and ensuring correct wiring, we began routing and we've covered some grounds.. will continue tmr
+
+![en-pin-wiring](images/fixed-esp32-en-pin.png)
+
+![ldo-wiring](images/fixed-ldo-wiring.png)
+
+![pcb-components-and-started-wiring](images/pcb-components-and-started-wiring.png)
+
+![radar-presence-sensor](images/radar-presence-sensor.png)
+
+Timelapse: https://lapse.hackclub.com/timelapse/GjsO2iJ3Wp_l
+
+also this 11 mins https://lapse.hackclub.com/timelapse/RbmZFwa_v1Lu
+
+--- 
