@@ -1,5 +1,8 @@
 # AtmosCore
 <img width="2362" height="1672" alt="SCH_outdoor-module_1-P1_2026-09-20" src="https://github.com/user-attachments/assets/e33a192e-91ff-4ccc-85b7-314d9525eb20" />
+
+![3d-pcb](..images/3d-pcb-from-up.png)
+
 AtmosCore is a smart ESP32-powered weather monitor! It consists of two modules that communicate wirelessly, one that collects weather data using sensors (which will typically be placed outside where weather data is sourced), and another that is connected to a screen and displays the data. It runs on battery that is charged by a solar panel.
 
 # Key Features:
@@ -13,5 +16,7 @@ AtmosCore is a smart ESP32-powered weather monitor! It consists of two modules t
 |Temperature + Humidity + Pressure sensor|BME280|
 |Light Sensor|BH1750FVI-TR|
 |Temperature Sensors|KNTC0603/10KF3950|
+
+Update to features: We've added a radar sensor to turn on the indoor module when a user walks by or comes near. There's more, gonna update when I remember lol
 
 # NOTE: THIS PROJECT WAS MADE WITH ASSISTANCE OF AI TOOLS FOR RESEARCH AND GUIDANCE
