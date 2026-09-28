@@ -148,14 +148,14 @@ After the indoor PCB, I fixed the same issues that I fixed in the indoor module 
 If anything, we'll switch them up later. 
 Anyways, after fixing things up, we started placing components for the outdoor module.. We changed the FAT battery holder to testpoints/pads instead so we're gonna use those flat LiPo batteries instead (like in the indoor module). I've placed most of the main components and those that go with them, and we'll complete the remaining tomorrow)! So proud of our work so far yayayyayayay!
 
-![finsihed-pcb](images/indoor-pcb)
+![finsihed-pcb](images/indoor-pcb.png)
 
-![3d-pcb](images/3d-indoor-pcb)
+![3d-pcb](images/3d-indoor-pcb.png)
 
-![3d-pcb-too](images/3d-pcb-from-up)
+![3d-pcb-too](images/3d-pcb-from-up.png)
 
-![bat-pads](images/bat-pads)
+![bat-pads](images/bat-pads.png)
 
-![outdoor-place-components](images/outdoor-place-components)
+![outdoor-place-components](images/outdoor-place-components.png)
 
 Timelapse: https://lapse.hackclub.com/timelapse/7acM_9xCz0wH
