@@ -83,3 +83,13 @@ Lapse: https://lapse.hackclub.com/timelapse/niB1LtsmsYx9
 
 <img width="1029" height="755" alt="image" src="https://github.com/user-attachments/assets/46da19b2-e8b9-43aa-9df0-e4944f70b6a8" />
 <img width="2683" height="4032" alt="Case-Prototype-Drawing-AtmosCore-Final" src="https://github.com/user-attachments/assets/673556d1-4409-4701-ad09-221a9a4a0328" />
+
+# 9/27/2026 Finished PCB for indoor module!! (2 hrs)
+
+Today, I continued with wiring the PCB for the indoor module and managed to finish it! I worked on wiring the things from the ESP32 to the components and finished that. I did not wire any GND because I was going to do a ground fill for that. After I finished wiring the things from the ESP32 to the components, I helped Funmi with wiring and then I added a ground fill zone on both the front and back layers of the PCB. We than ran DRC and then we got a lot of errors, and most of them were for isolated areas from the main ground pour which prevented those components from being connected to GND. We had to manually move components around and then connect the GND zone to other GND zones. But we managed to get through this and finished the PCB for the indoor module. I also decided to make the battery solder pad bigger, but I still think that it is pretty small, but it is big enough to solder. And I also added a hole to the PCB because EasyEDA was being buggy and did not allow me to put the solder pads on the back side of the PCB, where the battery will be. We did move on to the PCB for the outdoor module, and I did correct the CH340C in its schematic, but we were not managed to get work done on it because there were some things that needed to be fixed. 
+
+<img width="893" height="295" alt="image" src="https://github.com/user-attachments/assets/353935a3-9b96-4f20-a3af-ee995779dcca" />
+<img width="918" height="680" alt="image" src="https://github.com/user-attachments/assets/18505cde-e5f1-46be-9d95-1554d59a7468" />
+<img width="1123" height="832" alt="image" src="https://github.com/user-attachments/assets/43f162fa-f424-4400-94d2-2b587d57d3ed" />
+
+Lapse: https://lapse.hackclub.com/timelapse/y9PWhYpRvxX6
