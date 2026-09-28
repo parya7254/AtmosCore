@@ -137,3 +137,14 @@ Timelapse: https://lapse.hackclub.com/timelapse/GjsO2iJ3Wp_l
 also this 11 mins https://lapse.hackclub.com/timelapse/RbmZFwa_v1Lu
 
 --- 
+
+**27th September**
+
+We finished the indoor module PCB :)! We wired the remainign aprts form yesterday, added ground fills on both sides, and ran DRC.. Then we fixed all our errors.
+Only thing that might change maybe the battery pads as they're so small.. We would also defo add some silkscreen for decor.. and info too.
+
+After the indoor PCB, I fixed the same issues that I fixed in the indoor module yday in the outdoor module (used the same micro) and then I also hadn't added an output capacitor to the buck booster.. somehow I had missed that from the datasheet (i used the datasheet, i promise). Thankfully, I noticed.. and I also fixed the input capacitor.. the datasheet recommends 2 x 10uFs and 4 x 22uFs respectively... for the indoor, I just added 22uFs, but I realised it seems to be more effective and cancel out more noise (ig)
+
+If anything, we'll switch them up later. 
+Anyways, after fixing things up, we started placing components for the outdoor module.. We changed the FAT battery holder to testpoints/pads instead so we're gonna use those flat LiPo batteries instead (like in the indoor module). I've placed most of the main components and those that go with them, and we'll complete the remaining tomorrow)! So proud of our work so far yayayyayayay!
+
