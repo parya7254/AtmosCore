@@ -93,3 +93,11 @@ Today, I continued with wiring the PCB for the indoor module and managed to fini
 <img width="1123" height="832" alt="image" src="https://github.com/user-attachments/assets/43f162fa-f424-4400-94d2-2b587d57d3ed" />
 
 Lapse: https://lapse.hackclub.com/timelapse/y9PWhYpRvxX6
+
+# 9/28/2026 Noticed a fatal mistake with indoor module's PCB + started layout for outdoor module's PCB!! (45 mins)
+
+Today, I managed to start with the layout for the outdoor module's PCB! But I also was checking through the PCB for the indoor module, and I realized a fatal error, the footprint for the CH340C was flipped and all of the pins were reversed. I first started with laying out the PCB for the outdoor module and I was using the indoor module's PCB as a reference for a good layout to make things easier. But which I was on the CH340C, I was looking at the placement of some things, and I saw that the pins for the CH340C were horizontally mirrored. I checked through the symbol and footprint given for the part on the LCSC website, and I confirmed that it was wrong. I did not have time to confirm this design error with any other components, but I will try to work on this the next time that I work on this project. We will have to unroute many things and then fix the symbol and then rewire those things back, hopefully it won't be too hard and take too much time from working on the outdoor module's PCB. 
+
+Lapse: https://lapse.hackclub.com/timelapse/Bsg8yYXhbAp2
+
+<img width="804" height="722" alt="image" src="https://github.com/user-attachments/assets/489a4224-8b86-4221-a4d5-a2d515bc38a7" />
