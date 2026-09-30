@@ -101,3 +101,11 @@ Today, I managed to start with the layout for the outdoor module's PCB! But I al
 Lapse: https://lapse.hackclub.com/timelapse/Bsg8yYXhbAp2
 
 <img width="804" height="722" alt="image" src="https://github.com/user-attachments/assets/489a4224-8b86-4221-a4d5-a2d515bc38a7" />
+
+# 9/29/2026 Continued with placement of parts on the PCB for the outdoor module!! (1hr 15 mins)
+
+Today, I looked back at the indoor PCB to see why the CH340C was reversed, and then I zoomed out and then saw that the biggest component, the ESP32, was on the other side of the PCB and also reversed. I then realized that this was a viewing error and not a design error and looked through the buttons in the top toolbar of the PCB editor. I then saw that one of the buttons were highlighted and then clicked it which returned everything else to normal. Now, moving on to the PCB for the outdoor module, I continued with the placement of parts on it. We also discussed in a Slack Huddle on how we should place the parts and stuff on the PCB, and we also discussed a big issue, waterproofing. The thing is, it can rain outside, and the PCB is well, not exactly waterproof/water resistant enough to handle that. We also had to expose the sensors as well to the open air, which are also not waterproof. This might be a big issue to think about while designing the case for the outdoor module. We will have to expose the sensors without exposing them to the rain. We will discuss more about that when the time comes to design the case for the outdoor module. Other than that, I managed to get a good chunck of caoacitors placed and maybe one or two resistors. The placement should be finished or almost done by the end of the next time that we work on this.
+
+Lapse: https://lapse.hackclub.com/timelapse/pnjjUVFZs-LN
+
+<img width="1090" height="749" alt="image" src="https://github.com/user-attachments/assets/835267c3-6b3a-499b-a379-947ac3b34c66" />
