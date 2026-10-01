@@ -109,3 +109,11 @@ Today, I looked back at the indoor PCB to see why the CH340C was reversed, and t
 Lapse: https://lapse.hackclub.com/timelapse/pnjjUVFZs-LN
 
 <img width="1090" height="749" alt="image" src="https://github.com/user-attachments/assets/835267c3-6b3a-499b-a379-947ac3b34c66" />
+
+# 9/30/2026 Finished PCB components placement + started wiring components!! (1hr 15 mins)
+
+Today, I managed to complete the placements of the parts on the PCB and also start wiring some things! I continued with the capacitors and did everything other than the decoupling ones. I also finished the placement of all of the resistors on the PCB. I also went back and crossed check the placement of the capacitor or resistor with the placement of them in the schematic. I then continued with placing the decoupling capacitors where I ran into the problem of not knowing where to put them on the PCB. I got some guidance from my teammate, Funmi, who told me to put 100nF and 22uF decoupling capacitors near the ESP32's 3V3 pin. We then realized that there was an extra 10uF decoupling capacitor and then removed it. And then, I moved on to wiring the components on the PCB. I started with wiring the areas that I thought were the hardest and cluttered, like the LDO. After I completed wiring the LDO, I moved on to wiring some power pins and connecting some things to the ESP32. We should be able to get most of the wiring done by the end of the next time that we work on this project!
+
+Lapse: https://lapse.hackclub.com/timelapse/NGEkKWjFGjx7
+
+<img width="1147" height="729" alt="image" src="https://github.com/user-attachments/assets/a52f57f5-1cf2-47ff-8d8c-7843ec64fee9" />
