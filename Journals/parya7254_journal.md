@@ -122,6 +122,8 @@ Lapse: https://lapse.hackclub.com/timelapse/NGEkKWjFGjx7
 
 Today, I continued and finished the wiring of the outdoor PCB! We also added a ground fill. But we managed to complete the whole PCB and everything for it! We first continued with wiring the PCB and then ran DRC for it. We then corrected the errors of the DRC. You may notice that we did not do any GND, and the reason for that was that we were doing a ground fill. After correcting the DRC errors for non-GND things, we moved on to the ground fill. The ground fill was not perfect and there were unconnected zones/islands. We then corrected them by connecting them to other things connected to a zone with the GND source, and I went to the 3D viewer for the PCB. I then saw that there was PCB under the antenna of the ESP32 module, so I changed the outline of the rectangle on the layer for the board outline. I then corrected the outline by making it to around the antenna and then confirmed everything else quickly and now we are done with the PCB designing part of the project!
 
+UPDATE: Funmi is going to add battery percentage sensing today on both the indoor and outdoor module's PCB when I am gone so the PCB designing part of the project is not 100% completely done.
+
 Lapse: https://lapse.hackclub.com/timelapse/XhcEM4rOD5U5
 
 <img width="1120" height="711" alt="image" src="https://github.com/user-attachments/assets/a58b72b7-9a8f-4d16-a369-a5fcba79dbc0" />
