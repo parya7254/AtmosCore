@@ -129,3 +129,10 @@ Lapse: https://lapse.hackclub.com/timelapse/XhcEM4rOD5U5
 <img width="1120" height="711" alt="image" src="https://github.com/user-attachments/assets/a58b72b7-9a8f-4d16-a369-a5fcba79dbc0" />
 <img width="1111" height="778" alt="image" src="https://github.com/user-attachments/assets/944e5e77-bf41-4bc0-95e7-44a189a72556" />
 
+# 10/2/2026 Started CAD for indoor module!! (2 hrs)
+
+Today, I started working on the CAD for the indoor module! I first started with making a new Onshape project as it supported sharing with team members and working with live updates and was also browser-based. I did have some trouble while trying to set up the collaborator thing, but I managed to do it. I also got my teammate, Funmi, to create an account for Onshape. After getting that ready, I worked on designing the bottom part of the case while Funmi worked on fixing some problems/errors in the PCB. I went back and forth from and to the PCB to get the distances and everything needed for the case. I also did look over some datasheets/blueprints for the power button to get the proper dimensions in place for this. Funmi then also added some filets on the corners for a cleaner asthetic. You may notice that the top of the case (where the USB-C port and the power button is) has no filets and this is because I want to keep a nice balanced, minimalistic, simple, and very Apple-like design for the case. Not having any rounded properties on the top just gave Apple-product vibes so I decided to go with that. I will continue with finishing up the case during the next time that we work on this project.
+
+Lapse: https://lapse.hackclub.com/timelapse/pQ9YjL-gYnOz
+
+<img width="811" height="714" alt="image" src="https://github.com/user-attachments/assets/c269d5c6-d775-4637-83eb-93bedba8f8f5" />
