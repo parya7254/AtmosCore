@@ -159,3 +159,11 @@ Anyways, after fixing things up, we started placing components for the outdoor m
 ![outdoor-place-components](images/outdoor-place-components.png)
 
 Timelapse: https://lapse.hackclub.com/timelapse/7acM_9xCz0wH
+
+---
+
+### WEEK 3
+
+**2nd October, 2026**
+
+We finished placing components on the outdoor module, and wired it up. And of course, ground fills, DRC and all of that.. and yayya, we're done! We then remembered we needed to add battery measurement voltage dividers so I did that this morning.. and just finished this evening! and ofc had errors and fixed then
