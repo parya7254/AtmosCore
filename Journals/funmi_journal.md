@@ -168,12 +168,31 @@ Timelapse: https://lapse.hackclub.com/timelapse/7acM_9xCz0wH
 
 We finished placing components on the outdoor module, and wired it up. And of course, ground fills, DRC and all of that.. and yayya, we're done! We then remembered we needed to add battery measurement voltage dividers so I did that this morning.. and just finished this evening w my teammates help cuz I got stuck! and ofc we fixed all our errors, rebuilt ground fills and.. now we're actually done!.. we hope!
 
+![battery-measurement](images/battery-measurement.png)
+
+![3d-outdoor-model](images/3d-outdoor-model.png)
+
+![outdoor-module-pcb](images/outdoor-module-pcb.png)
+
+![3d-outdoor-flat](images/3d-outdoor-flat.png)
+
+Timelapses: 
+https://lapse.hackclub.com/timelapse/n3gh6F-ZVt-m
+https://lapse.hackclub.com/timelapse/gxGTGI2P7w6p
+https://lapse.hackclub.com/timelapse/05RpBTpiCn64
+
 ---
 
 **2nd October evening**
 
 We started off with CAD yesterday!! My teamtate has made the bottom and top covers (still on the top) for the indoor module! He added holes for the on-button and the usb connector! I'm using Onshape for the first time and I also kinda have always hated cad.. but i did contribute to it.. I did the fillets for the bottom aprt of the indoor module yayayya!!
 
-We also kinda realise that we have to make the small boot and reset buttons to be accessible through the cad. we're still working on that.. but I'm gonna get started on firmware cuz my teammate got cad for the most part..!
+We also kinda realise that we have to make the small boot and reset buttons to be accessible through the cad. we're still working on that.. but I'm gonna get started on FIRMWARE!! cuz my teammate got cad for the most part..!
+
+![indoor-cad-bottom](images/indoor-cad-bottom.png)
+
+![indoor-cad-top](images/indoor-cad-top.png)
 
 Timelapse: https://lapse.hackclub.com/timelapse/77oZqxya-N3z
+
+---
