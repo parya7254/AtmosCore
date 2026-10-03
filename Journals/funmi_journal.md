@@ -166,4 +166,14 @@ Timelapse: https://lapse.hackclub.com/timelapse/7acM_9xCz0wH
 
 **2nd October, 2026**
 
-We finished placing components on the outdoor module, and wired it up. And of course, ground fills, DRC and all of that.. and yayya, we're done! We then remembered we needed to add battery measurement voltage dividers so I did that this morning.. and just finished this evening! and ofc had errors and fixed then
+We finished placing components on the outdoor module, and wired it up. And of course, ground fills, DRC and all of that.. and yayya, we're done! We then remembered we needed to add battery measurement voltage dividers so I did that this morning.. and just finished this evening w my teammates help cuz I got stuck! and ofc we fixed all our errors, rebuilt ground fills and.. now we're actually done!.. we hope!
+
+---
+
+**2nd October evening**
+
+We started off with CAD yesterday!! My teamtate has made the bottom and top covers (still on the top) for the indoor module! He added holes for the on-button and the usb connector! I'm using Onshape for the first time and I also kinda have always hated cad.. but i did contribute to it.. I did the fillets for the bottom aprt of the indoor module yayayya!!
+
+We also kinda realise that we have to make the small boot and reset buttons to be accessible through the cad. we're still working on that.. but I'm gonna get started on firmware cuz my teammate got cad for the most part..!
+
+Timelapse: https://lapse.hackclub.com/timelapse/77oZqxya-N3z
