@@ -143,6 +143,7 @@ Today, I continued with the CAD for the indoor module and managed to finish it a
 
 Lapse: https://lapse.hackclub.com/timelapse/v99ebhN0Yk2b
 
+<img width="841" height="713" alt="image" src="https://github.com/user-attachments/assets/e627c3a2-ff79-4e4e-b91c-b1e0dd9c85fb" />
 <img width="1426" height="820" alt="image" src="https://github.com/user-attachments/assets/df3e7d46-fcef-4e02-ac8e-ab05ee073659" />
 <img width="803" height="634" alt="image" src="https://github.com/user-attachments/assets/b2de1823-ce69-45fe-ad74-0b4e67060db7" />
 <img width="1085" height="804" alt="image" src="https://github.com/user-attachments/assets/09989225-e612-41b9-9415-f89c12b4dfef" />
