@@ -19,4 +19,29 @@ AtmosCore is a smart ESP32-powered weather monitor! It consists of two modules t
 
 Update to features: We've added a radar sensor to turn on the indoor module when a user walks by or comes near. There's more, gonna update when I remember lol
 
+# Development setup
+
+This repository is configured as a native ESP-IDF project. Open the `AtmosCore`
+folder in VS Code (rather than the parent repository folder), then use the
+Espressif IDF extension to:
+
+1. Run **ESP-IDF: Configure ESP-IDF extension** and install the ESP-IDF tools if
+   they are not already installed.
+2. Set the target to **esp32**.
+3. Run **ESP-IDF: Build your project**.
+4. Select the board's serial port and use **ESP-IDF: Flash your project** or
+   **ESP-IDF: Flash your project and monitor**.
+
+The current source is a hardware-initialization scaffold; sensor drivers and
+wireless communication still need to be implemented.
+
+## ESP-IDF or PlatformIO?
+
+ESP-IDF is the recommended choice for this project. It is Espressif's native
+framework, has first-class ESP-NOW support, and gives direct access to the
+power-management and deep-sleep APIs needed by this battery-powered design.
+PlatformIO is a reasonable alternative if you want one common workflow across
+multiple microcontroller families, but it adds another build/configuration
+layer and is not needed for this ESP32-only project.
+
 # NOTE: THIS PROJECT WAS MADE WITH ASSISTANCE OF AI TOOLS FOR RESEARCH AND GUIDANCE
