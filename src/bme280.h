@@ -1,4 +1,5 @@
 #pragma once
+#include "data.h"
 
 void bme280_init(void);
 

@@ -4,18 +4,23 @@ typedef struct{
     float temperature;
     float humidity;
     float pressure;
-} BmeData;
+
+    float bat_folt;
+} IndoorData;
 
 
 typedef struct{
-     BmeData bme;
+    float temperature;
+    float humidity;
+    float pressure;
+
     float light_lux;
     bool isRaining;
-    float outdoor_bat_volt;
+
+    float bat_volt;
 } OutdoorData;
 
 typedef struct{
+    IndoorData indoor;
     OutdoorData outdoor;
-    BmeData indoor;
-    float indoor_bat_volt;
 } WeatherStationData;
