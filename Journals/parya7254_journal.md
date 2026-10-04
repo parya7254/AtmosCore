@@ -136,3 +136,16 @@ Today, I started working on the CAD for the indoor module! I first started with 
 Lapse: https://lapse.hackclub.com/timelapse/pQ9YjL-gYnOz
 
 <img width="811" height="714" alt="image" src="https://github.com/user-attachments/assets/c269d5c6-d775-4637-83eb-93bedba8f8f5" />
+
+# 10/3/2026 Finished CAD for the indoor module + also assembled it!! (3 hrs 45 mins)
+
+Today, I continued with the CAD for the indoor module and managed to finish it and also assemble it! I completed the basic bottom part of the case and imported the PCB into an assembly along with the bottom case. I looked at how things looked and went back and forth making changes to make it perfect with everything on the PCB! I had quite some trouble with perfectly aligning the PCB to the case, and it had to be perfect so that I could make perfect adjustments. I then finished adjusting all of the holes and then added the TFT display to the assembly after I went hunting for a model that had the proper display size. I then realized that the display was quite a bit bigger than the header pins, so I had to make some space by cutting some of the case. I then realized that the TFT display was interfering with the radar module, so Funmi went back to the PCB for the indoor module and then moved the radar module down by 10 mm. Then we did the top part of the case, and I went back and forth from the assembly to the part for the top part of the case to make some precise adjustments. I then had to reimport and reposition everything perfectly, but this time the radar was safe! I think that now we are officially done with the CAD and assembly for the indoor module! I will hopefully continue with the CAD by working on the CAD for the outdoor module during the next time that I work on this.
+
+Lapse: https://lapse.hackclub.com/timelapse/v99ebhN0Yk2b
+
+<img width="1426" height="820" alt="image" src="https://github.com/user-attachments/assets/df3e7d46-fcef-4e02-ac8e-ab05ee073659" />
+<img width="803" height="634" alt="image" src="https://github.com/user-attachments/assets/b2de1823-ce69-45fe-ad74-0b4e67060db7" />
+<img width="1085" height="804" alt="image" src="https://github.com/user-attachments/assets/09989225-e612-41b9-9415-f89c12b4dfef" />
+<img width="1490" height="597" alt="image" src="https://github.com/user-attachments/assets/16c9ebc8-5c9f-48d2-bf08-c1c711b5c183" />
+
+
