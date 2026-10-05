@@ -198,3 +198,19 @@ We also kinda realise that we have to make the small boot and reset buttons to b
 Timelapse: https://lapse.hackclub.com/timelapse/77oZqxya-N3z
 
 ---
+
+**3rd October**
+
+So, for the CAD, I did the top layer for the indoor module! Then we realised that the module was covering the radar and it would probably not measure someone's presence. So, I increased the size of the pcb (by 10mm) and moved the radar to the bottom of it!! Then we increased the size of the cad as well .. both top and bottom!!
+
+we did the assemlbly and put aligned all the aprts together! Then my teammate branded it this morning, he had also added holes for the OLED to show and all. now we've added holes for ventilation or to reduce overheating in tboth modules.,
+
+ATMOS CORE CAD IS FINISHED( also we call it iBrick.. cuz it looks like a brick sth Apple will make)!
+
+![indoor-cad-complete](images/indoor-cad-complete.png)
+![outdoor-module](images/outdoor-module.png)
+![outdoor-top](images/outdoor-top.png)
+![outdoor-bottom](images/outdoor-bottom.png)
+![increased-length-outdoor](images/increased-length-outdoor.png)
+
+Timelapse: https://lapse.hackclub.com/timelapse/xjRKseYRGz7s
