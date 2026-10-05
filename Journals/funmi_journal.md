@@ -214,3 +214,24 @@ ATMOS CORE CAD IS FINISHED( also we call it iBrick.. cuz it looks like a brick s
 ![increased-length-outdoor](images/increased-length-outdoor.png)
 
 Timelapse: https://lapse.hackclub.com/timelapse/xjRKseYRGz7s
+
+
+---
+
+**October 4th**
+I started writing the previous journal before but didn't commit!
+
+Oke, We're done! Like done done!
+
+For the code, we were first using espidf, then we switched to arduino.. cuz espidf was so low_level and we would have to be writing almost bare metal code!
+
+I know both c and cpp so it wasn't tooo bad, but I had to do reserach of the libraries.. and I copied some default code, created the data structures for our code and wrote the header and implementation files for reaidng and implementing the functions. I asl did the pin mapping before this for both the indoor and outdoor modules! Our code is functional and prints to a serial monitor. There's minor changes to be made but only for when we do the actual assembly and are able to test the code!
+
+I also installed platformio on my vscode and ran the file in the early stages to make sure it ran and worked! and it did, which is why we have those build files.. you can ignore those (the cmake, the gitignore, the build and components folder were all made by platform io, so plz ignore them!)
+
+My teammate made some minor changes to the cad asw!! So, now we're completely done w AtmosCore! if we decide to build/assemble this masterpiece :), we will defo!!
+
+![indoor-cad-complete](images/indoor-cad-complete.png)
+![outdoor-module](images/outdoor-module.png)
+
+ATMOSCORE (AKA IBRICK!!) by za wonderful Funmi and Arya!!!

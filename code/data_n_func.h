@@ -19,13 +19,5 @@ struct IndoorData{
     float bat_volt;
 };
 
-bool bme280_init(uint8_t address);
-float bme280_get_humidity();
-float bme280_get_temperature();
-float bme280_pressure();
-
-bool lightSensorInit();
-float readLight();
-
-bool rainSensorInit(uint8_t pin);
+void rainSensorInit(uint8_t pin);
 bool rainSensor(uint8_t pin);

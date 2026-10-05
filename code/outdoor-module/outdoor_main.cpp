@@ -10,30 +10,33 @@
 #include "../data_n_func.h"
 
 
-uint8_t indoorAddress[]={
-    //outdoor module's esp32 ADDRESS
-}
-
 Adafruit_BME280 bme;
 BH1750 lightMeter;
 OutdoorData outdoorValues;
+
+uint8_t indoorAddress[]={
+    //outdoor module's esp32 ADDRESS
+}
 
 
 void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
   Serial.print("\r\nLast packet's print status:\t");
   if (status == ESP_NOW_SEND_SUCCESS) {
     Serial.println("Delivery Success");
-  } else {
+  }
+  else {
     Serial.println("Delivery Failed");
   }
-}
 
-void setup(){
+
+
+
+void setup() {
     Serial.begin(115200);
     delay(1000);
-    analogReadResolution(12);
 
-    Serial.println("ATMOS CORE Outdoor (iBrick):)");
+    Serial.println("ATMOS CORE!!);
+    analogReadResolution(12);
 
     //bme
     Wire.begin(I2C_SDA_PIN, I2C_SCL_PIN);
@@ -43,6 +46,8 @@ void setup(){
         Serial.println("Successful!");
     else
         Serial.println("Can't find the BME280!");
+        return;
+
 
     //lightMeter
     bool lightMeter_success = lightMeter.begin();
@@ -50,6 +55,7 @@ void setup(){
         Serial.println("Successful!");
     else
         Serial.println("Can't find the lightMeter!");
+        return
 
 
     pinMode(ANALOG_OUT, INPUT);
@@ -58,8 +64,10 @@ void setup(){
 
     if(esp_now_init() ==  ESP_OK){
         Serial.println("Successful!");
-    }else{
+    }
+    else{
         Serial.println("Failed to initialize ESP-NOW!");
+        return
     }
 
     esp_now_register_send_cb(OnDataSent);
@@ -76,20 +84,23 @@ void setup(){
     }
 
     Serial.println("ESP-NOW ready");
-
     
 }
 
+
+
 void loop() {
 
-    outdoorValues.temperature = outdoorValues.readTemperature();
-    outdoorValues.humidity = outdoorValues.readHumidity();
-    outdoorValues.pressure = outdoorValues.readPressure()/100.0F;
+    outdoorValues.temperature = bme280.readTemperature();
+    outdoorValues.humidity = bme280.readHumidity();
+    outdoorValues.pressure = bme280.readPressure()/100.0F;
+    //it measures in Pa, so we convert to hPa
 
-    outdoorValues.light_lux = outdoorValues.readLight();
-    outdoorValues.isRaining = outdoorValues.readRain();
 
-    outdoorValues.bat_volt = analogReadMilliVolts(BATTERY_ADC) * 2.00f / 1000.00f;
+    outdoorValues.light_lux = lightMeter.readLight();
+    outdoorValues.isRaining = rainSensor(ANALOG_OUT);
+
+    outdoorValues.bat_volt = analogReadMilliVolts(BATTERY_ADC) * 2.00f / 1000.00f; //because we divided our voltage by 2, 470K resistors each!
 
     esp_now_send(indoorAddress, (uint8_t *)&outdoorValues, sizeof(outdoorValues));
 
