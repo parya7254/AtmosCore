@@ -149,4 +149,16 @@ Lapse: https://lapse.hackclub.com/timelapse/v99ebhN0Yk2b
 <img width="1085" height="804" alt="image" src="https://github.com/user-attachments/assets/09989225-e612-41b9-9415-f89c12b4dfef" />
 <img width="1490" height="597" alt="image" src="https://github.com/user-attachments/assets/16c9ebc8-5c9f-48d2-bf08-c1c711b5c183" />
 
+# 10/4/2026 Finished Project!! (2hrs 15 mins)
+
+Today, started and finished the CAD for the outdoor module and Funmi worked on the code while I helped a little bit with my little knowledge of code! And we managed to finish the project today! I started off with a rough outline of the bottom case, while also going back to the PCB to get some reference measurements for them. I then did the same thing that I did for the CAD of the indoor module, assemble it and then go back and forth and fine tuning it. I then repeated did that. I then realized that the sensors would have to be exposed to the outside in one way so I added vent holes on each side so that we could get decently accurate readings while having a better water resistance than rather not having a lid on the top. I also made another row of holes on the front of the case so that light would flow in, and also so that there would be more air and ventilation for the BME280. I also added some vent holes to the indoor module as well since that also has a sensor in it. I then worked on the lid for the outdoor moduke and then I realized that I had forgotten to brand it! So, I picked a good font and branded both tops of the cases! And for the connectivity of the top part of the case to the bottom, I decided that I will have to do that in a sliced, by assembling those two pieces together and then preforming a cut while also adding connectors. I tested that out with 2 separate cubes, and it worked and I could not do that in Onshape because they did not have a button to make connectors between two parts.
+
+Lapse: https://lapse.hackclub.com/timelapse/RVo0fO54Z9kG
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ede87e9e-950d-457f-ac40-185bb0922097" />
+<img width="1338" height="716" alt="image" src="https://github.com/user-attachments/assets/d77e2872-b71c-4ac0-9e50-4e18850eab32" />
+<img width="1134" height="832" alt="image" src="https://github.com/user-attachments/assets/1fc14b2c-a9c6-4dce-aab3-51b83f4a1701" />
+<img width="1218" height="395" alt="image" src="https://github.com/user-attachments/assets/f5ef9ac5-6127-454c-99c0-9d7c20cdd47b" />
+<img width="1311" height="812" alt="image" src="https://github.com/user-attachments/assets/b0c930f8-6290-4f33-a410-6b5257bfb7eb" />
+
 
