@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "battery.c"
+        "bme280.c"
+        "power.c"
+    INCLUDE_DIRS
+        "."
+)
