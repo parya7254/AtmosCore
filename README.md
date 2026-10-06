@@ -28,4 +28,4 @@ AtmosCore is a smart ESP32-powered weather monitor! It consists of two modules t
 <img width="1246" height="840" alt="image" src="https://github.com/user-attachments/assets/f52a9381-8416-429b-84fb-7d9b82c2fd2a" />
 
 
-## Note: This project was made with AI tools assistance!
+## Note: This project was made with AI for researching stuff!
